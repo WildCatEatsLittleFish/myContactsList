@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/myContactsList/static/css/main.0031414c.chunk.css",
+    "main.js": "/myContactsList/static/js/main.edf32feb.chunk.js",
+    "main.js.map": "/myContactsList/static/js/main.edf32feb.chunk.js.map",
+    "runtime-main.js": "/myContactsList/static/js/runtime-main.36c15698.js",
+    "runtime-main.js.map": "/myContactsList/static/js/runtime-main.36c15698.js.map",
+    "static/js/2.3cafb898.chunk.js": "/myContactsList/static/js/2.3cafb898.chunk.js",
+    "static/js/2.3cafb898.chunk.js.map": "/myContactsList/static/js/2.3cafb898.chunk.js.map",
+    "index.html": "/myContactsList/index.html",
+    "precache-manifest.96359d9bd91f8ed84a62c25c0289f60e.js": "/myContactsList/precache-manifest.96359d9bd91f8ed84a62c25c0289f60e.js",
+    "service-worker.js": "/myContactsList/service-worker.js",
+    "static/css/main.0031414c.chunk.css.map": "/myContactsList/static/css/main.0031414c.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36c15698.js",
+    "static/js/2.3cafb898.chunk.js",
+    "static/css/main.0031414c.chunk.css",
+    "static/js/main.edf32feb.chunk.js"
+  ]
+}
