@@ -16,7 +16,6 @@ Run the frontend app
 ```
 git clone https://github.com/WildCatEatsLittleFish/myContactsList.git
 cd myContactsList && cd app
-npm install
 npm start
 ```
 
@@ -27,6 +26,5 @@ cd myContactsList
 cd backend && node server.js
 cd ..
 cd app
-npm install
 npm start
 ```
