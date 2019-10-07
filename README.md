@@ -4,7 +4,8 @@
 ## Information
 
 ### This project contains a contacts list app and a backend server.
-The backend server is only capable of receiving uploaded image file by Post requests from the app and showing the received image file name in the console. For future work, a database system should be implemented to manage data for the app.
+The backend server is only capable of receiving uploaded image file by Post requests from the app and showing the received image file name in the console. 
+For future work, a database system should be implemented to manage data for the app.
 Without the help of database, the frontend app now stores contacts data using localStorage of the browser.
 
 ## Getting Started
