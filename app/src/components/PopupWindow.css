@@ -1,0 +1,163 @@
+.popupWindow {
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  width: 100%;
+  height: 100%;
+  left: 0.03%;
+  right: -0.03%;
+  top: 0%;
+  bottom: 0%;
+
+  background-color: rgba(10, 40, 38, 0.561453);
+}
+
+.contactForm {
+  position: absolute;
+  left: 30.41%;
+  right: 30.32%;
+  top: 18.51%;
+  bottom: 11.9%;
+
+  background: rgba(255, 255, 255, 0.970024);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 38px;
+}
+
+.content {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+#cancel {
+  position: absolute;
+  top: 5%;
+
+  font-family: OpenSans;
+  font-size: 20px;
+  border: none;
+  padding: 0px;
+
+  color: rgba(61, 135, 130, 0.606488);
+}
+
+#save {
+  position: absolute;
+  right: 0%;
+  top: 5%;
+
+  font-family: OpenSans;
+  font-size: 20px;
+  padding: 0px;
+  border: none;
+
+  color: rgba(61, 135, 130, 0.606488);
+}
+
+
+
+.photo_name_row {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 120px;
+}
+
+.photo {
+  position: relative;
+  height: 100%;
+  width: 80px;
+}
+
+.circle {
+  position: absolute;
+  display: table-cell;
+
+  height: 80px;
+  width: 80px;
+
+  border-radius: 50%;
+  background: #3D8782;
+}
+
+.image {
+  position: absolute;
+  display: table-cell;
+  width:80px;
+  height: 80px;
+  border-radius:50%;
+
+  float:left;
+}
+
+.addphoto {
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: OpenSans;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.967957);
+}
+
+
+
+.photo > input[type="file"] {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.name {
+  position: absolute;
+  top: 0%;
+  width: 70%;
+  height: 100%;
+  right: 0%;
+}
+
+
+.name input, .phone_email input {
+  position: relative;
+  width: 70%;
+  font-family: OpenSans;
+  font-size: 20px;
+  /* color: rgba(95, 95, 95, 0.391786); */
+  border: none;
+  background-color: rgba(255, 255, 255, 0.970024);
+}
+
+
+.name hr, .phone_email hr {
+  border: 1px solid #979797;
+}
+
+.phone_email {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+}
+
+.phone_email label {
+  font-family: OpenSans;
+  font-size: 20px;
+  padding-right: 10px;
+
+  color: #3D8782;
+}
+
+::placeholder {
+  color: rgba(95, 95, 95, 0.391786);
+}
